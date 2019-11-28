@@ -1,8 +1,9 @@
-//import Header from '../components/Header'
-import Layout from '../components/MyLayout'
+import Layout from '../components/MyLayout.js'
 
-export default () => (
+export default function About() {
+  return (
     <Layout>
-        <p>THis is the about page</p>
+      <p>This is the about page</p>
     </Layout>
-)
+  )
+}
